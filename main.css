@@ -1,23 +1,49 @@
 body {
-    background-color: lightslategray;
+    background-color: lightgray;
     margin:0;
     padding:0;
 }
 
 .container {
     margin:0;
-    border: 10px solid red;
+    border: 10px solid darkred;
     height: calc(100vh - 20px);
     width: calc(100vw - 20px);
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .container>.img_blocks {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 80vw;
-    height: 80vh;
+}
+
+.blocks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+
+.block {
+    background-color: cadetblue;
+    height: 200px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block1 {
+    flex-basis: 400px;
+}
+
+.block2 {
+    flex-basis: 100px;
+}
+
+.block3 {
+    flex-basis: 200px;
 }
