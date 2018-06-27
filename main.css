@@ -1,4 +1,31 @@
-body {
+body {}
+
+.container {}
+
+.container .item {}
+
+.container .item .content {}
+
+.container .item .content .metadata {}
+
+.container .item .content .metadata .title {}
+
+.container .item .btn-group {}
+
+.container .item .btn-group .button {}
+
+.container .item .btn-group .button a {}
+
+.container .item .btn-group .button:hover {}
+
+.container .item .btn-group .button:hover a {}
+
+.item.featured {}
+
+.item.associated{}
+
+
+/*body {
     background-color: lightgray;
     margin:0;
     padding:0;
@@ -39,17 +66,17 @@ body {
 .block1 {
     flex-basis: 400px;
     /*flex-grow: 4;*/
-    flex-shrink: 4;
+    /*flex-shrink: 4;
 }
 
 .block2 {
     flex-basis: 100px;
     /*flex-grow: 1;*/
-    flex-shrink: 1;
+    /*flex-shrink: 1;
 }
 
 .block3 {
     flex-basis: 200px;
     /*flex-grow: 2;*/
-    flex-shrink: 1;
-}
+    /*flex-shrink: 1;
+}*/
